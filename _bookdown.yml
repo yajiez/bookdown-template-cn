@@ -1,0 +1,14 @@
+book_filename: "bookdown-template-cn"
+language:
+  label:
+    fig: "图 "
+    tab: "表 "
+  ui:
+    edit: "编辑"
+    chapter_name: ["第 ", " 章"]
+    
+repo: https://github.com/yajiez/bookdown-template-cn
+output_dir: docs
+rmd_files: ["index.Rmd", "01-Intro.Rmd", "02-Methods.Rmd", "03-More.Rmd"]
+clean: [packages.bib, bookdown.bbl]
+new_session: yes
